@@ -1,5 +1,3 @@
-# aws-api-gateway-level2
-
 # AWS API Gateway – Level 2 (Terraform Implementation)
 
 ##  Project Overview
@@ -85,7 +83,6 @@ This ensures no AWS charges continue after completion.
 # Author
 
 Thariq T
-DevOps Assignment – Level 2
 
 
 
