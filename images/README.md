@@ -1,4 +1,4 @@
-# 📸 Screenshots
+# Screenshots
 
 ## Terraform Init
 
