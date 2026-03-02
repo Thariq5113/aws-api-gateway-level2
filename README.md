@@ -1,3 +1,5 @@
+##DevOps Assignment 1
+
 # AWS API Gateway – Level 2 (Terraform Implementation)
 
 ##  Project Overview
@@ -28,21 +30,21 @@ Before deploying this project, ensure you have:
 # Deployment Steps
 
  1. Initialize Terraform
- 2. Preview infrastructure changes ('terraform init')
- 3. Deploy infrastructure ('terraform plan')
- 4. Type `yes` when prompted ('terraform apply')
+ 2. Preview infrastructure changes (`terraform init`)
+ 3. Deploy infrastructure (`terraform plan`)
+ 4. Type `yes` when prompted (`terraform apply`)
  5. Copy the generated `invoke_url` from the output.
 
 # Testing the APIs
 
 ## 1️⃣ JSON Proxy API
-  curl.exe https://pwd8zruou0.execute-api.ap-south-1.amazonaws.com/v1/json/posts/2
+  ```curl.exe https://pwd8zruou0.execute-api.ap-south-1.amazonaws.com/v1/json/posts/2 ```
   Expected Output: JSON post data from JSONPlaceholder.
 ## 2️⃣ Weather API
-  curl.exe "https://pwd8zruou0.execute-api.ap-south-1.amazonaws.com/v1/weather?latitude=12&longitude=77&hourly=temperature_2m"
+  ```curl.exe "https://pwd8zruou0.execute-api.ap-south-1.amazonaws.com/v1/weather?latitude=12&longitude=77&hourly=temperature_2m" ```
   Expected Output: Hourly weather forecast data.
 ## 3️⃣ Countries API
-  curl.exe https://pwd8zruou0.execute-api.ap-south-1.amazonaws.com/v1/countries/india
+ ``` curl.exe https://pwd8zruou0.execute-api.ap-south-1.amazonaws.com/v1/countries/india```
   Expected Output: Country details for India.
 
 # Terraform Resources Created
